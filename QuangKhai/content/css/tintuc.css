@@ -1,0 +1,24 @@
+.content > p {
+    margin: 0!important;
+}
+.a{
+    margin-left: 15px;
+}
+.z{
+    padding-left: 30px;
+}
+
+.z h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #1c498d;
+    margin: 0;
+    padding-top: 3px;
+}
+
+
+.time{
+    margin-top: 10px;
+    padding-bottom: 15px;
+}

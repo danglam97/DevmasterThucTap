@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="icon" href="images/AnhCat/logo.png" type="image/png">
+	<title>Xưởng Mộc Giá Tốt</title>
+</head>
+<body class="bgc">
+	<div class="wrap">
+		<header class="">
+			<nav class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/AnhCat/logo.png" alt="Xưởng mộc giá tốt hoàng hoan"></a>
+				</div>
+				<div class="menu" data-show="0">
+					<div class="d-flex h-100 justify-content-center align-items-center">
+						<ul>
+							<li><a href="index.html"> Trang chủ </a></li>
+							<li><a href="about.html"> Giới thiệu </a></li>
+							<li><a href="product.html"> Sản phẩm </a></li>
+							<li><a href="news.html"> Tin tức </a></li>
+							<li><a href="partner.html"> Đối tác  </a></li>
+							<li><a href="contact.html"> Liên hệ  </a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-center d-block d-lg-none">
+					<button class="res-menu d-block d-lg-none">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</nav>
+		</header>
+
+		<!-- CONTENT -->
+		<div class="container">
+			<div class="breadcumb">
+				<div class="d-flex align-items-center">
+					<p> <a href="#">Trang chủ </a> </p>
+					<span> <i class="fas fa-angle-right"></i> </span>
+					<p><a href="#">PHÒNG KHÁCH</a></p>
+					<span> <i class="fas fa-angle-right"></i> </span>
+					<p> <a href="#"> Chi tiết sản phẩm </a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="product-detail">
+				<h1> Bàn tiếp khách </h1>
+				<div class="row mb-4">
+					<div class="col-lg-8">
+						<div class="w3-container">
+							<div class="w3-content">
+								<img class="mySlides" src="images/AnhCat/P002-big.jpg" style="width:100%;display:none">
+								<img class="mySlides" src="images/AnhCat/P002-big.jpg" style="width:100%">
+								<img class="mySlides" src="images/AnhCat/P002-big.jpg" style="width:100%;display:none">
+
+								<div class="w3-row-padding w3-section">
+									<div class="w3-col s4">
+										<img class="demo w3-opacity w3-hover-opacity-off" src="images/AnhCat/P002-big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+									</div>
+									<div class="w3-col s4">
+										<img class="demo w3-opacity w3-hover-opacity-off" src="images/AnhCat/P002-big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+									</div>
+									<div class="w3-col s4">
+										<img class="demo w3-opacity w3-hover-opacity-off" src="images/AnhCat/P002-big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<p class="material"> Chất liệu </p>
+						<div class="d-flex material ">
+							<button class="active"> Gỗ sồi </button>
+							<button> Gỗ lim </button>
+							<button> Gỗ mít </button>
+						</div>
+						<div class="price">
+							<p class="old">0 VNĐ</p>
+							<p class="new">0 VNĐ</p>
+						</div>
+						<div class="certify d-flex align-items-center">
+							<i class="fas fa-shield-alt mr-2"></i>
+							<p>Bảo hành sản phẩm lên đến 12 tháng</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="detail-info">
+					<nav class="d-flex">
+						<div class="nav nav-tabs" id="nav-tab" role="tablist">
+							<a class="nav-link active" id="nav-dt-tab" data-toggle="tab" href="#nav-dt" role="tab" aria-controls="nav-dt" aria-selected="true">Đặc trưng</a>
+							<a class="nav-link" id="nav-ts-tab" data-toggle="tab" href="#nav-ts" role="tab" aria-controls="nav-ts" aria-selected="false">Thông số</a>
+							<a class="nav-link" id="nav-bq-tab" data-toggle="tab" href="#nav-bq" role="tab" aria-controls="nav-bq" aria-selected="false">Bảo quản</a>
+							<a class="nav-link" id="nav-bh-tab" data-toggle="tab" href="#nav-bh" role="tab" aria-controls="nav-bht" aria-selected="false">Bảo hành</a>
+							<a class="nav-link" id="nav-ck-tab" data-toggle="tab" href="#nav-ck" role="tab" aria-controls="nav-ck" aria-selected="false">Cam kết</a>
+						</div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade show active" id="nav-dt" role="tabpanel" aria-labelledby="nav-dt-tab">
+							<h1>BÀN UỐNG NƯỚC - BÀN TRÀ CAO CẤP CHO CHUNG CƯ</h1>
+
+							<p>Bàn uống nước hay bàn trà là một trong những sản phẩm không thể thiếu trong mọi ngôi nhà hay trong các căn hộ chung cư, việc lựa chọn bàn uống nước, bàn trà sao cho phù hợp với không gian , màu sắc phòng khách mà không ảnh hưởng tới bố cục của căn phòng vô cùng quan trọng. Trong bài viết này, xưởng mộc Hoàng Hoan sẽ cùng các bạn tham khảo một số lưu ý khi lựa chọn bàn uống nước cho căn phòng của mình.</p>
+
+							<p><strong>1/ Lựa chọn phù hợp với không gian</strong></p>
+
+							<p>Một chiếc bàn uống nước được coi là phù hợp và hoàn hảo, điều đầu tiên cần phải phù hợp với không gian của căn phòng nơi nó được trưng bày, nghĩa là chiếc bàn không được quá to hoặc không quá nhỏ mà cần hài hòa với các vật dụng xung quanh chiếc bàn đó. Điều đó có nghĩa gia chủ cần tính toán, cân nhắc rất nhiều trong trường hợp sử dụng các sản phẩm bàn uống nước được sản xuất có sẵn trên thị trường, để khi mua về chiếc bàn có thể hài hòa với căn phòng.</p>
+
+							<p><strong>2/ Lựa chọn bàn uống nước phù hợp với màu sắc căn phòng.</strong></p>
+
+							<p>Ngoài yếu tố phù hợp với không gian căn phòng, màu sắc của chiếc bàn trà cũng cần được quan tâm để không quá nổi trội và gây chói mắt cho gia chủ cũng như bạn bè khi đến chơi nhà. Những chiếc bàn trà nên có màu sắc ấm áp, nhẹ nhàng để tạo cho không gian khi thưởng thức trà được thoải mái nhất.</p>
+
+							<p><strong>3/ Lựa chọn thiết kế bàn trà phù hợp.</strong></p>
+
+							<p>Với một căn phòng mang phong cách hiện đại, việc sử dụng một chiếc bàn uống nước cổ điển, truyền thống sẽ làm hỏng không gian và gây nhức mắt. Chính vì vậy cần quan tâm rất lớn cho thiết kế bàn trà khi lựa chọn cho căn phòng của gia đình để mọi vật hài hòa trong không gian đó nhất.&nbsp;</p>
+
+							<p>Những lưu ý tưởng trừng như cơ bản ai cũng biết như trên thực ra đã có rất nhiều người đã và đang gặp phải và đã phải thay thế những chiếc bàn uống nước khác cho căn phòng để chữa cháy những lựa chọn trước đó của chính mình. Một lựa chọn an toàn cho mọi gia đình khi lựa chọn các vật dụng nội thất như bàn uống nước, cầu thang, cánh cửa, giường gỗ và tủ gỗ,... là lựa chọn các xưởng sản xuất uy tín, nơi có thể cùng cấp những lời tư vấn phù hợp nhất.</p>
+						</div>
+						<div class="tab-pane fade" id="nav-ts" role="tabpanel" aria-labelledby="nav-ts-tab">
+							<p>- Bàn uống nước gỗ nhập khẩu</p>
+
+							<p>- Phong cách hình học tối giản</p>
+
+							<p>- Kệ bên trong có kích thước hoàn hảo cho tạp chí, đế lót ly và các phụ kiện phòng khách khác - Có thể được sử dụng như một bàn TV thấp - Kệ mỏng hoàn hảo để chứa một hộp hàng đầu hoặc đầu phát blu-ray - Làm bằng gỗ Sheesham cao cấp - Không cần lắp ráp.</p>
+						</div>
+						<div class="tab-pane fade" id="nav-bq" role="tabpanel" aria-labelledby="nav-bq-tab">
+							<p>- Việc sử dụng các chất liệu gỗ nhập khẩu cao cấp sẽ giúp việc sử dụng lâu dài và có giá trị hơn, việc bảo quản các sản phẩm đồ gỗ từ xưởng mộc Hoàng Hoan vô cùng đơn giản, tùy thuộc vào mục đích sử dụng của gia đình mà chúng tôi có những tư vấn cụ thể nhất.</p>
+						</div>
+						<div class="tab-pane fade" id="nav-bh" role="tabpanel" aria-labelledby="nav-bh-tab">
+							<p>Bảo hành sản phẩm lên đến 12 tháng</p>
+						</div>
+						<div class="tab-pane fade" id="nav-ck" role="tabpanel" aria-labelledby="nav-ck-tab">
+							<p>Hoàng Hoan cam kết đổi trả</p>
+
+							<p>Lắp ráp miễn phí</p>
+
+							<p>Tư vấn nhiệt tình</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="relate-product-wrapper container">
+			<div class="relate-product">
+				<div class="d-flex justify-content-between header-re-prod">
+					<h2> Sản phẩm tương tự  </h2>
+				</div>
+				<div class="box-relate-product">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="product">
+								<div class="img">
+									<img src="images/AnhCat/phong-khach-ke-de-do.png" alt="Kệ để đồ" class="img-fluid">
+								</div>
+								<div class="info">
+									<p class="name"> <a href="#" title="Kệ để đồ"> Kệ để đồ</a>   </p>
+									<p class="vote">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+									</p>
+									<p class="desc"> (4 ngăn ,Gỗ lim)</p>
+
+									<p class="price"> <span>1</span> VNĐ </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="product">
+								<div class="img">
+									<img src="images/AnhCat/phong-khach-ke-ti-vi.png" alt="Kệ TV" class="img-fluid">
+								</div>
+								<div class="info">
+									<p class="name"> <a href="#" title="Kệ TV"> Kệ TV</a>   </p>
+									<p class="vote">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+									</p>
+									<p class="desc"> (4 ngăn ,Gỗ lim)</p>
+
+									<p class="price"> <span>1</span> VNĐ </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="product">
+								<div class="img">
+									<img src="images/AnhCat/phong-khach-ban-uong-nuoc-2.png" alt="BÀN UỐNG NƯỚC 2" class="img-fluid">
+								</div>
+								<div class="info">
+									<p class="name"> <a href="#" title="BÀN UỐNG NƯỚC 2"> BÀN UỐNG NƯỚC 2</a>   </p>
+									<p class="vote">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+									</p>
+									<p class="desc"> (Size vừa ,Gỗ sồi)</p>
+
+									<p class="price"> <span>1</span> VNĐ </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="product">
+								<div class="img">
+									<img src="images/AnhCat/P002-big.jpg" alt="Bàn tiếp khách" class="img-fluid">
+								</div>
+								<div class="info">
+									<p class="name"> <a href="#" title="Bàn tiếp khách"> Bàn tiếp khách</a>   </p>
+									<p class="vote">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+									</p>
+									<p class="desc"> (Size vừa ,Gỗ sồi,Gỗ lim)</p>
+
+									<p class="price"> <span>1</span> VNĐ </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="w-100" style="background:#363636">
+		<div class="container">
+			<div class="row mt-3 mb-3">
+				<div class="col-md-6">
+					<h5>
+						THÔNG TIN CHUNG
+						<span class="line-remove" style="width: 78px; "></span>
+					</h5>
+					<h4 class="mt-2 pt-2 com-name">CÔNG TY TNHH HOÀNG HOAN</h4>
+					<p class="com-phone">
+						<i class="fas fa-phone-alt"></i>
+						<a href="#" title="0999.999.999">0999 999 999</a>
+					</p>
+					<p class="com-email">
+						<i class="fas fa-envelope"></i>
+						<a href="#" title="cskh@hoanghoan.vn">cskh@hoanghoan.vn</a> 
+					</p>
+					<address class="com-address">
+						<i style="width: 22px;" class="fas fa-map-marker-alt"></i>Số 1, Nguyễn Trãi, Thanh Xuân, Hà Nội 
+					</address>
+				</div>
+				<div class="col-md-3">
+					<h5>
+						VỀ CHÚNG TÔI
+						<span class="line-remove" style="width: 78px; "></span>
+					</h5>
+					<ul>
+						<li><a href="about.html" title="Giới thiệu">Giới thiệu</a></li>
+						<li><a href="product.html" title="Sản phẩm">Sản phẩm</a></li>
+						<li><a href="news.html" title="Tin tức">Tin tức</a></li>
+						<li><a href="partner.html" title="Đối tác">Đối tác</a></li>
+						<li><a href="contact.html" title="Liên hệ">Liên hệ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>
+						KẾT NỐI VỚI CHÚNG TÔI
+						<span class="line-remove" style="width: 78px; "></span>
+					</h5>
+					<div class="mt-4 social-icon"> 
+						<a href="#" target="_blank">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+						<a href="#" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a href="#" target="_blank">
+							<i class="far fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bf61fecb7c.js" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Script -->
+<script type="text/javascript" src="js/javascript.js"></script>
+
+<script type="text/javascript">
+	function currentDiv(n) {
+		showDivs(slideIndex = n);
+	}
+
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("demo");
+		if (n > x.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+				}
+				x[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " w3-opacity-off";
+			}
+		</script>
+		</html>

@@ -1,0 +1,24 @@
+.left-form {
+    width: 50%;
+}
+.right-form {
+    width: 50%;
+}
+.form-control{
+	width: 80%;
+}
+.right-form img {
+    width: 96%;
+}
+.form-group.row {
+    height: 38px;
+}
+.btn-sb{
+	margin: 20px 0px;
+}
+.form-group.row.btn-sb {
+    margin-top: 110px;
+}
+input.btn.btn-danger {
+    margin-right: 40px;
+}

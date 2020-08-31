@@ -1,0 +1,55 @@
+.banner{
+    position: relative;
+}
+.banner .img{
+    height: 465px;
+    overflow: hidden;
+    
+}
+.conten {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 60px;
+}
+.conten .text-center{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 140px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Gotham-Ultra;
+}
+.intro{
+    padding: 1em 1.5em;
+    background: #fff;
+    margin: -4em 0 2em 0;
+    position: relative;
+}
+.intro .box{
+    margin-top: 25px;
+}
+.box .content .title{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #bd945f;
+    font-family: Gotham-Ultra;
+}
+.form_lienhe input {
+    width: 100% !important;
+    padding: 12px 14px 12px 14px;
+    border: 3px solid #bd945f;
+    margin-bottom: .6rem;
+}
+.form_lienhe_send{
+        width: 20%;
+        background: #bd945f ;
+        padding: 12px 14px 12px 14px;
+        color: #fff;
+        border: 3px solid #bd945f;
+        margin-bottom: .6rem;
+}

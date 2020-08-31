@@ -1,0 +1,88 @@
+.banner{
+    position: relative;
+}
+.banner .img{
+    height: 465px;
+    overflow: hidden;
+    
+}
+.conten {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 60px;
+}
+.conten .text-center{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 140px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Gotham-Ultra;
+}
+
+.introduce{
+    padding: 1em 1.5em;
+    background: #fff;
+    margin: -4em 0 2em 0;
+    position: relative;
+}
+.introduce .box{
+    margin-top: 25px;
+}
+.introduce .box h2{
+    padding: 4px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2e53;
+    margin-bottom: 50px;
+    position: relative;
+    font-family: Gotham-Ultra;
+}
+.introduce .box h2::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    border-top: 7px solid #bd945f;
+}
+
+.introduce .box  .content p{
+    font-size: 13px;
+}
+
+.reason .reason_items{
+    border: 2.5px solid #bd945f;
+    background: #fff;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+.reason_items .img{
+    padding-left: 1.5em;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 2em;
+}
+.reason_items .img img{
+    width: 56px;
+}
+.reason_items .content {
+    padding: 1.5em;
+}
+.reason_items .content .title{
+    text-transform: uppercase;
+    color: #bd945f;
+    font-family: Gotham-Ultra;
+    font-size: 14px;
+}
+.reason_items .content .desc{
+    font-size: .85em;
+    margin-bottom: 0;
+}
+}

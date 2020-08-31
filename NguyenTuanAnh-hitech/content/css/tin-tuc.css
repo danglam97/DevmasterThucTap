@@ -1,0 +1,193 @@
+#tin-tuc .title{
+	border-bottom: .05rem solid #e5e5e5;
+	padding: .75rem 1.25rem .75rem .1rem;
+}
+.des-tt
+{
+	background: #f6f6f6;
+	margin:0px 0px;
+	border-bottom: 4px solid #1c498d;
+}
+.img-tt
+{
+	padding: 0px 0px;
+}
+a
+{
+	text-decoration: none !important;
+}
+.title-tt
+{
+	margin-top: 27px;
+	font-family: OpenSans-SemiBold;
+	color: #21385e;
+	padding-bottom: 7px;
+}
+.title-tt:hover
+{
+	margin-top: 27px;
+	font-family: OpenSans-SemiBold;
+	color: green;
+	padding-bottom: 7px;
+}
+.p-des
+{
+	line-height: 30px;
+	text-align: justify;
+}
+/*nut mui ten*/
+.muiten
+{
+	margin-left: 3px;
+	margin-bottom: 3px !important;
+}
+.btnChiTiet
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+	height: 44px;
+	background: #1c498d;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+}
+.btnChiTiet:hover
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+	height: 44px;
+	background: #ffc22e;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+}
+/*end nut mui ten*/
+/*san pham noi bat*/
+.card-body a h5
+{
+	color: #1c498d;
+	font-family: inherit;
+	font-size: 17px;
+	font-weight: bold;
+}
+.xemchitiet
+{
+	color: #2a3341;
+}
+#tin-tuc .card-bg-header{
+	background-color:#1c498d;
+	margin:-.06rem;
+}
+#tin-tuc .card-header{
+	font-family: "OpenSans-SemiBold";
+	font-size:18px;
+	color:#fff;
+}
+/*end san pham noi bat*/
+
+/*tin tuc*/
+.mottin
+{
+	padding: 23px 0px;
+}
+/*.img-tintuc
+{
+	margin-right: 20px;
+}*/
+.noidung-tintuc
+{
+	margin-left: -75px;
+}
+.size-nho
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #1c498d;
+	color: white;
+	text-align: center;
+	width: 104px;
+	height: 32px;
+	line-height: unset;
+	padding: 5px;
+	margin-right: -59px;
+}
+.size-nho:hover
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #ffc22e;
+	color: white;
+	text-align: center;
+	width: 104px;
+	height: 32px;
+	line-height: unset;
+	padding: 5px;
+}
+.mottin-title
+{
+	font-family: "OpenSans-Bold";
+	font-size:18px;
+	color: #20385D;
+	margin-bottom: 4px !important;
+	width: 804px;
+}
+.mottin-title:hover
+{
+	font-family: "OpenSans-Bold";
+	font-size:18px;
+	color: #6fb548;
+	margin-bottom: 4px !important;
+	width: 804px;
+}
+p.ngay
+{
+	color: #676767;
+}
+i.fa-clock
+{
+	color: #20385D;
+}
+p.mottin-content
+{
+	/* text-align: justify; */
+	padding: 5px 0px;
+	width: 804px;
+	text-align: justify;
+}
+
+/*end tin tuc*/
+
+/*phan trang*/
+.pagination 
+{
+    width: 400px;
+}
+.pagination a 
+{
+	display: block;
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	margin-top: 32px;
+}
+
+.pagination a.active 
+{
+	background-color: #21385e;
+	color: white;
+}
+
+.pagination a:hover:not(.active) 
+{
+	background-color: #ddd;
+
+}
+/*end phan trang*/

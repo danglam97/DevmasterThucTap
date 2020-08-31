@@ -1,0 +1,79 @@
+#lien-he .title{
+	border-bottom: .05rem solid #e5e5e5;
+	padding: .75rem 1.25rem .75rem .1rem;
+}
+#lien-he .content-title
+{
+	font-family: "OpenSans-Bold";
+	color: #1c458f;
+	font-size: 20px;
+	padding: 40px;
+}
+#lien-he .map 
+{
+	background: #f4f4f4;
+	height: 485px;
+	border-radius: 20px;
+}
+.map iframe{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#lien-he .des
+{
+	padding: 15px 17px;
+}
+#lien-he .des span
+{
+	font-family: "OpenSans-Bold";
+	margin-left: 10px;
+}
+.form_title
+{
+	text-align: center;
+}
+.form_title h3.xanh
+{
+	font-size: 18px;
+	font-family: "OpenSans-Bold";
+	color: #1C4599;
+	padding-top: 40px;
+}
+.form_title h5
+{
+	font-size: 16px;
+	font-family: "OpenSans-Bold";
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.trai
+{
+	margin-left: 5px;
+}
+.phai
+{
+	padding-right: 35px;
+	padding-left: 2px;
+}
+.form_contact
+{
+	margin-top: 40px;
+	background: #f4f4f4;
+	border-radius: 15px;
+}
+.btn-submit
+{
+	float: right;
+	margin: 15px 0px !important;
+	background: #7f7f7f;
+	color: white;
+	width: 105px;
+	height: 38px;
+	border: none;
+	border-radius: 6px;
+}
+.btn-submit:hover
+{
+	background: #20385d;
+}

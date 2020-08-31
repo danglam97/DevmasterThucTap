@@ -1,0 +1,63 @@
+/*dịch vụ content*/
+#dich-vu{
+	/*margin: 15px 10px;*/
+}
+#dich-vu .title{
+	border-bottom: .05rem solid #e5e5e5;
+	padding: .75rem 1.25rem .75rem .1rem;
+}
+#dich-vu p{
+	margin-top: .8rem;
+	line-height: 24pt;
+}
+#dich-vu h4{
+	margin-top:2rem;
+}
+#dich-vu .card-header{
+	font-family: "OpenSans-SemiBold";
+	font-size:18px;
+	color:#fff;
+}
+#dich-vu .card-bg-header{
+	background-color:#1c498d;
+	margin:-.06rem;
+}
+#dich-vu .card{
+	background-color:#f3f3f3 !important;
+}
+#dich-vu .list-group{
+	background-color:#f3f3f3 !important;
+	padding:0 1rem;
+}
+#dich-vu .list-group-item{
+	border:0px;
+	border-bottom:0.09rem dotted #e1e1e1 !important;
+	padding:.5rem 0;
+	background-color:#f3f3f3 !important;
+}
+#dich-vu .card .img-thumbnail{
+	background:#f3f3f3;
+}
+#dich-vu h5{
+	font-family: "OpenSans-Bold";
+	font-size:17px;
+	color:#1c498d;
+	margin-bottom:0 !important;
+	text-decoration: none;
+}
+#dich-vu a
+{
+	text-decoration: none;
+}
+#dich-vu .card a{
+	font-family: "OpenSans-Regular";
+	font-size:14px;
+	color:#2a3341;	
+}
+.xemchitiet
+{
+	color: #2a3341;
+}
+
+
+

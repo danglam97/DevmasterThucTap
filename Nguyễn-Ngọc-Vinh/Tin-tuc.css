@@ -1,0 +1,55 @@
+.box_new{
+    padding: 40px 40px 0 40px;
+    background: #fff;
+    margin: 60px 0;
+}
+.box_new h2{
+    padding: 4px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2e53;
+    margin-bottom: 60px;
+    position: relative;
+    font-family: Gotham-Ultra;
+}
+.box_new h2::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    border-top: 7px solid #bd945f;
+}
+.wapper_news .items_news{
+    margin-bottom: 32px;
+}
+.wapper_news .items_news .img img{
+    width: 100%;
+    overflow: hidden;
+}
+.wapper_news .items_news .content{
+    margin: 16px 0 12px 0;
+    font-size: 14px;
+}
+.wapper_news .items_news .content a{
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #bd945f;
+    text-align: justify;
+    font-size: 1.0rem;
+    text-decoration:  none;
+}
+.box_new .bar-next{
+    text-align: center;
+    margin: 10px 0; 
+}
+.box_new .bar-next a{
+    text-decoration: none;
+}
+.box_new .bar-next .color-horver{
+    background: #bd945f;
+}
+.box_new .bar-next a:hover{
+    background: #bd945f;
+}

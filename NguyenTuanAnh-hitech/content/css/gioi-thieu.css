@@ -1,0 +1,39 @@
+#gioi-thieu .title{
+	border-bottom: .05rem solid #e5e5e5;
+	padding: .75rem 1.25rem .75rem .1rem;
+}
+#gioi-thieu .card-header{
+	font-family: "OpenSans-SemiBold";
+	font-size:18px;
+	color:#fff;
+}
+#gioi-thieu .content
+{
+	margin-top: 10px;
+	line-height: 36px;
+}
+#gioi-thieu .card-bg-header{
+	background-color:#1c498d;
+	margin:-.06rem;
+}
+#gioi-thieu h5
+{
+	font-family: "OpenSans-Bold";
+	font-size:16px;
+	color:#1c498d;
+	margin-bottom:0 !important;
+	text-decoration: none;
+}
+#gioi-thieu a
+{
+	text-decoration: none;
+}
+#gioi-thieu .card a{
+	font-family: "OpenSans-Regular";
+	font-size:14px;
+	color:#2a3341;	
+}
+.xemchitiet
+{
+	color: #2a3341;
+}

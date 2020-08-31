@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_weight="3"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageviewgiohang"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+</LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/textviewtengiohang"
+            android:textColor="#000000"
+            android:text="Ten mon hang"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewgiagiohang"
+            android:textColor="#F20"
+            android:textSize="15sp"
+            android:text="Gia mon hang"
+            android:layout_marginTop="3dp"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/buttonminus"
+                android:text="-"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:focusable="false"/>
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/buttonvalues"
+                android:text="1"
+                android:focusable="false"
+                android:background="@null"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/buttonplus"
+                android:text="+"
+                android:focusable="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

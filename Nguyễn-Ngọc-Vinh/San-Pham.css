@@ -1,0 +1,94 @@
+.main{
+    background: #eee9e9;
+}
+.slick-active button{
+    margin-top: -30px;
+}
+.slick-active button::before{
+    margin-top: -30px;
+}
+.banner_slide .slick-prev::before {
+    font-size: 25px;
+    color: #FFF;
+}
+.banner_slide .slick-next::before {
+    font-size: 25px;
+    color: #FFF;
+}
+.slick-dots li button:before{
+    font-size: 8px;
+}
+.wapper{
+    padding-top: 50px;
+}
+.wapper_list{
+    padding: 1.8em 1.5em 0 1.5em;
+    margin-bottom: 4em;
+    background: #fff;
+    font-size: 16px;
+}
+.wapper_list .box-title{
+    margin-bottom: -1em;
+}
+.wapper_list .box-title h2{
+    padding: 4px 0;
+    text-align: left;
+    color: #2c2e53;
+    margin-bottom: 50px;
+    font-family: Gotham-Ultra;
+    position: relative;
+    font-size: 24px;
+}
+.wapper_list .box-title h2::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    transform: translateX(0%);
+    width: 160px;
+    border-top: 7px solid #bd945f;
+}
+.wapper_list .see-all{
+    margin: .5em 0 0 0;
+    font-size: 1em;
+}
+.wapper_list .see-all a{
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+.wapper_list .see-all a:hover{
+    color: #bd945f;
+}
+.box_product {
+    margin-bottom: 60px;
+}
+.box_product .product img{
+    width: 245px;
+    height: 200px;
+}
+.product .info{
+    text-align: center;
+}
+.product .info .name{
+    margin-bottom: 0px;
+    margin-top: 1em;
+    font-size: 16px;
+    font-family: Gotham-Medium; 
+}
+.product .info .name a{
+    color: #2c2e53;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.product .info .vote{
+    color: #bd945f;
+    margin-bottom: 0px;
+}
+.product .info .decs{
+    color: #a8a8a8;
+    font-family: Gotham-Thin;
+    font-size: .8rem;
+    margin-bottom: 0px;
+}

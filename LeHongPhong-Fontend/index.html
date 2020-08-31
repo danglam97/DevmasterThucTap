@@ -1,0 +1,371 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>Trang chủ</title> 
+		<link rel="stylesheet" type="text/css" href="style.css"/> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_logo">
+           	 	<a href="" >
+					<img src="logo.png" >
+            	</a>
+			</div>
+			<div class="header_search">
+				<form  class="search" action="/tim-kiem" method="get">
+					<input id="search" name="search" type="text"  placeholder="Hôm nay bạn muốn điều gì..." /> <i class="fa fa-search" aria-hidden="true"></i>
+				</form>
+			</div>
+			<div class="header_menu">	
+				<ul id="ul_menu">
+					<li>
+						<a href="index.html" title="">
+							<i class="fa fa-home" aria-hidden="true"></i>
+							<br>
+							<p>Trang chủ</p>
+						</a>
+					</li>
+					<li>
+						<a href="gioithieu.html" title="">
+							<i class="fa fa-info-circle" aria-hidden="true"></i>
+							<br>
+							<p>Giới thiệu</p>
+						</a>
+					</li>
+					<li>
+						<a href="" title="">
+							<i class="fa fa-gift" aria-hidden="true"></i>
+							<br>
+							<p>Ưu đãi</p>
+						</a>
+					</li>
+					<li>
+						<a href="mypham.html" title="">
+							<i class="fa fa-th-list" aria-hidden="true"></i>
+							<br>
+							<p>Sản Phẩm</p>
+						</a>
+						
+					</li>
+					<li>
+						<a href="lienhe.html" title="">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<br>
+							<p>Liên hệ</p>
+						</a>
+					</li>
+				</ul>
+			</div>	
+			<div class="header_log">
+				<ul id="ul_log">
+					<li><a href="" >Đăng nhập</a></li>
+					<li style="margin-left: 15px;"><a href="" >Đăng ký</a></li>
+				</ul>
+			</div>	
+		</div>	
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="d-block w-100" src="banner.png" alt="First slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="https://leskin.vn/Uploads/images/banner.webp?v10" alt="Second slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="https://leskin.vn/Uploads/Slider/slide1.webp?v10" alt="Third slide">
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		<div class="banner_icon">
+			<div id="icon" >
+				<img src="https://leskin.vn/Uploads/images/home-icon-1-Copy-1.webp?v10">
+				<p>	Giảm 10% 
+					<br>
+					Tăng điểm tích lũy
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-2.webp?v10">
+				<p>	50+ ưu đãi
+					<br>
+					mỗi tháng
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-3.webp?v10">
+				<p>	đặt dịch vụ 
+					<br>
+					nhanh chóng
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-4.webp?v10">
+				<p>	hơn 22
+					<br>
+					thương hiệu
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-5.webp?v10">
+				<p>	hơn 300+ 
+					<br>
+					spa làm đẹp
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-6.webp?v10">
+				<p>	hơn 250+ 
+					<br>
+					đối tác
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-7.webp?v10">
+				<p>	hơn 1250+
+					<br>
+					khách hàng
+				</p>
+			</div>
+			<div id="icon" >
+				<img src="https://leskin.vn/uploads/images/home-icon-8.webp?v10">
+				<p>	hơn 25
+					<br>
+					Thành phố
+				</p>
+			</div>
+		</div>
+		<div class="list-brand">
+			<div class="title">
+				<h2>
+					Dịch vụ
+				</h2>
+			</div>
+			<div class="list-brand-box">
+				<div class="brand">
+					<img src="https://leskin.vn/Uploads/news/nam-da-co-tu-het-khong_5dcd52e609204b5ead8851e1bf04dad7_1024x1024.webp?v10">
+					<br>
+					<h3>ĐIỀU TRỊ SẮC TỐ DA</h3>
+					<div class="btn-more">
+						<span>Xem thêm <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+					</div>
+				</div>
+				<div class="brand">
+					<img src="https://leskin.vn/Uploads/news/image4.webp?v10">
+					<br>
+					<h3>TRẺ HÓA DA</h3>
+					<div class="btn-more">
+						<span>Xem thêm <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+					</div>
+				</div>
+				<div class="brand">
+					<img src="https://leskin.vn/Uploads/news/342820-cham-soc-da-cao-cap-chong-lao-hoa-ngua-mun-tai-qt-beauty-spa-.webp?v10">
+					<br>
+					<h3>CHĂM SÓC DA ĐẶC BIỆT</h3>
+					<div class="btn-more">
+						<span>Xem thêm <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+					</div>
+				</div>
+				<div class="brand">
+					<img src="https://leskin.vn/Uploads/news/anh-web7.webp?v10">
+					<br>
+					<h3>ĐIỀU TRỊ SẸO RỖ</h3>
+					<div class="btn-more">
+						<span>Xem thêm <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="brand-banner">
+			<div>
+				<img src="https://leskin.vn/Uploads/images/Leskin-app.webp?v10">
+			</div>
+			<div class="text">
+				<h2>Làm đẹp mọi lúc mọi nơi</h2>
+           		<p><i class="fa fa-check"></i>Rẻ hơn, nhiều ưu đãi hơn</p>
+            	<p><i class="fa fa-check"></i>Hệ thống SPA toàn quốc</p>
+            	<p><i class="fa fa-check"></i>Tặng dịch vụ cho người khác</p>
+            	<p><i class="fa fa-check"></i>Mua mỹ phẩm chính hãng</p>
+			</div>
+		</div>
+		<div class="brand-banner2">
+			<div class="title-step">
+				<h2>5 BƯỚC ĐỂ TRẢI NGHIỆM DỊCH VỤN TẠI LESKIN</h2>
+			</div>
+			<div class="fivestep">
+			<div class="step">
+				<p class="number">01</p>
+				<br>
+				<p class="text2">Cài app Leskin hoặc truy cập Website Leskin</p>
+			</div>
+			<div class="step">
+				<p class="number">02</p>
+				<br>
+				<p class="text2">Đăng ký thông tin</p>
+			</div>
+			<div class="step">
+				<p class="number">03</p>
+				<br>
+				<p class="text2">Được tư vấn và giải đáp thắc mắc từ chuyên gia Leskin</p>
+			</div>
+			<div class="step">
+				<p class="number">04</p>
+				<br>
+				<p class="text2">Đặt chỗ tại Spa thuộc hệ thống Leskin</p>
+			</div>
+			<div class="step">
+				<p class="number">05</p>
+				<br>
+				<p class="text2">Trải nghiệm quy trình điều trị</p>
+			</div>
+			</div>
+		</div>
+		<div class="brand-banner3">
+			<div class="title-3">
+				<h3>VÌ SAO CHỌN LESKIN ?</h3>
+			</div>
+			<div class="br-bn-3-header">
+				<div class="img3">
+					<img src="https://leskin.vn/html/destop/img/spa-transform.webp?v10">
+						<br>
+						<h3> Phác đồ điều trị độc quyền</h3>
+				</div>
+			</div>
+			<div class="br-bn-3">
+				<div class="br-bn-3-left">
+					<div class="img3">
+						<img src="https://leskin.vn/html/destop/img/phone.webp?v10">
+						<br>
+						<h3> Trải nghiệm dịch vụ dễ dàng, nhanh chóng</h3>
+					</div>
+					<div class="img3" style="margin-top:100px">
+						<img  src="https://leskin.vn/html/destop/img/spa-tham-my-cong-nghe-cao-my-pham.webp?v10">
+							<br>
+							<h3> Công nghệ vượt trội</h3>
+					</div>
+				</div>
+				<div class="br-bn-3-center">
+					<img src="https://leskin.vn/html/destop/img/dermatude-model.png">
+				</div>
+				<div class="br-bn-3-right">
+					<div class="img3">
+						<img src="https://leskin.vn/html/destop/img/cangdamat2.webp?v10">
+						<br>
+						<h3> Hiệu quả rõ rệt</h3>
+					</div>
+					<div class="img3" style="margin-top:100px">
+						<img src="https://leskin.vn/html/destop/img/Untitled-1.webp?v10">
+						<br>
+						<h3> Thương hiệu uy tín</h3>
+					</div>
+				</div>
+			</div>	
+			<div class="br-bn-3-footer">
+				<div class="img3">
+					<img src="https://leskin.vn/html/destop/img/cac-dich-vu-spa.webp?v10">
+					<br>
+					<h3> Tuyệt đối an toàn</h3>
+				</div>
+			</div>		
+		</div>
+		<div class="footer">
+			<div class="row fter">
+				<div class="col-fter">
+					<div class="bor-top">
+				
+					</div>
+					<ul>
+						<li>
+						<h6>CÔNG TY CÔNG NGHỆ MỚI LESKIN VIỆT NAM</h6>
+						</li>
+						<li>
+							<p><i class="fa fa-map-marker" aria-hidden="true" style="margin-right: 9px;"></i>Số 1 LK 11A, KĐT Mỗ Lao, Hà Đông, Hà Nội</p>
+						</li>
+						<li>
+							<p><i class="fa fa-phone" aria-hidden="true" style="margin-right: 9px;"></i>320 686 55</p> 
+						</li>
+						<li>
+							<p><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 9px;"></i>info@leskin.com.vn</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-fter">
+					<div class="bor-top">
+				
+					</div>
+					<ul>
+						<li>
+							<h6> ĐỐI TÁC </h6>
+						</li>
+						<li >
+							<p style="display: inline-block; margin-top: 19px;">Vì sao bạn nên hợp tác với Leskin</p>
+						</li>
+						<li>
+							<p>Chính sách đối tác</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-fter">
+					<div class="bor-top">
+				
+					</div>
+					<ul>
+						<li>
+							<h6>CHÍNH SÁCH & ĐIỀU KHOẢN</h6>
+						</li>
+						<li>
+							<a href="#">Chính sách sử dụng</a>
+							<br>
+							<a href="#">Chính sách thành viên</a>
+							<br>
+							<a href="#">Chính sách bảo mật</a>
+							<br>
+							<a href="#">Chính sách mua hàng</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-fter">
+					<div class="bor-top">
+				
+					</div>
+					<ul>
+						<li>
+							<h6>KẾT NỐI LESKIN</h6>
+						</li>
+						<li style="display: inline-block; margin-top: 19px;">
+							<i class="fa fa-facebook" aria-hidden="true" style="color: #3b5999; font-size: 30px;"></i>
+							<i class="fa fa-youtube-play" aria-hidden="true" style="color: #cd201f; font-size: 30px; margin-left: 20px;"></i>
+							<i class="fa fa-instagram" aria-hidden="true" style=" font-size: 30px;margin-left: 20px;"></i>
+
+						</li>
+						<li>
+							<img src="https://leskin.vn/html/destop/img/app-android.jpg" style="margin-right: 20px;display: flex;" >
+							<img src="https://leskin.vn/html/destop/img/app-ios.jpg">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bot">
+			© 2019 Copyright Leskin.com.vn. All rights reserved.
+		</div>
+	</body>
+</html>

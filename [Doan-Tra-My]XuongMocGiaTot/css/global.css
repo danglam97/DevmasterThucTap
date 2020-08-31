@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: Gotham-Medium;
+}
+@font-face {
+	font-family: Gotham-Medium;
+	font-weight: 700;
+	src: url('../fonts/Gotham-Medium.otf');
+}
+@font-face {
+	font-family: Gotham-Thin;
+	font-weight: 700;
+	src: url('../fonts/Gotham-Thin.otf');
+}
+@font-face {
+	font-family: Gotham-Ultra;
+	font-weight: 700;
+	src: url('../fonts/Gotham-Ultra.otf');
+}
+h1, h2, h1 span {
+	font-family: Gotham-Ultra!important;
+}
+html {
+	font-size: 14px;
+}
+
+body {
+	background: #f3f3f3;
+}
+
+a:hover {
+	text-decoration: none!important;
+}
+
+.bgc {
+	background-color: #f3f3f3;
+}
+
+header .container:before, header .container:after {
+	display: none;
+}
+
+header {
+	background: #fff;
+	padding: .5em 0;
+	position: relative;
+	z-index: 99;
+	font-size: 18px;
+}
+header img {
+	height: 5em;
+	transition: all .2s ease-out;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header.fixed {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	top: 0;
+}
+
+header.fixed img {
+	height: 3em;
+}
+
+header.fixed .menu ul li {
+	margin-left: 2.5em;
+}
+
+header.fixed .menu ul a {
+	font-size: .8em;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.menu ul li {
+	margin-left: 3em;
+	position: relative;
+	transition: all .4s ease-out;
+}
+
+.menu ul li:before {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	width: 60px;
+	height: 1px;
+	border: 2px solid #fff;
+	display: none;
+	animation: menuHover .2s ease-in 1;
+}
+
+.menu ul li:hover:before, .menu ul li.active:before {
+	border-color: #bd945f;
+	display: block;
+}
+
+.menu ul a {
+	font-size: .9em;
+	color: #424242;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .2s ease-out;
+}
+
+/*MENU MOBILE*/
+.res-menu {
+	display: none;
+	border: none;
+	background: transparent;
+	position: relative;
+	width: 40px;
+	height: 30px;
+}
+
+.res-menu span {
+	width: 100%;
+	display: block;
+	border-bottom: 2px solid #000;
+	transition: all .2s ease-out;
+	position: absolute;
+	left: 0;
+}
+
+.res-menu span:nth-child(1) {
+	top: 1%;
+}
+
+.res-menu span:nth-child(2) {
+	top: 50%;
+}
+
+.res-menu span:nth-child(3) {
+	top: 100%;
+}
+
+.res-menu:focus {
+	outline: none;
+}
+
+.res-menu.active span:nth-child(2) {
+	display: none;
+}
+
+.res-menu.active span:first-child {
+	transform: rotateZ(45deg);
+	top: 50%;
+}
+
+.res-menu.active span:last-child {
+	transform: rotateZ(-45deg);
+	top: 50%;
+}
+
+@keyframes menuHover {
+	from {
+		width: 30px;
+		opacity: 0;
+	}
+
+	to {
+		width: 60px;
+		opacity: 1;
+	}
+}
+
+
+/*FOOTER*/
+footer {
+	background: #363636;
+	padding: 70px 0 20px 0;
+}
+
+footer h5 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	position: relative;
+	padding: 5px 0;
+	margin-bottom: 16px;
+}
+
+footer h5:before {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	width: 60px;
+	height: 1px;
+	border: 2px solid #fff;
+}
+
+footer h4 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+footer ul li {
+	margin-bottom: 16px;
+	font-family: 'Gotham-Thin';
+	color: #c1baba;
+	font-size: 1.3rem;
+	margin-bottom: .3rem !important;
+	padding: .05rem 0;
+}
+
+footer ul li a {
+	color: #d6d6d6;
+}
+
+footer ul li a:hover {
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+footer li a i {
+	margin: 0 12px 0 0;
+}
+
+footer .menu-footer li {
+	margin-bottom: 9px;
+}
+
+footer address,
+footer p, footer p a {
+	font-family: 'Gotham-Thin';
+	color: #c1baba;
+	font-size: 1.3rem;
+	padding: .05rem 0;
+	margin-bottom: .3rem !important;
+}
+
+footer i {
+	margin-right: 1rem;
+}
+
+footer ul li a {
+	color: #c1baba;
+	font-family: 'Gotham-Thin';
+}
+
+footer ul li a:hover {
+	color: #a15a26;
+	text-decoration: none;
+}
+
+footer .social-icon i, footer .social-icon a {
+	color: #fff;
+}
+
+footer .social-icon a i {
+	font-size: 30px;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #a15a26;
+}
+
+footer p a {
+	color: #c1baba;
+	font-size: 1em;
+}
+
+footer {
+	min-height: 180px;
+}

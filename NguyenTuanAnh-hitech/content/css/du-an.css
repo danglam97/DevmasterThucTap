@@ -1,0 +1,132 @@
+#du-an .title{
+	border-bottom: .05rem solid #e5e5e5;
+	padding: .75rem 1.25rem .75rem .1rem;
+}
+.des-da
+{
+	background: #f6f6f6;
+	margin:0px 0px;
+	border-bottom: 4px solid #1c498d;
+}
+.img-da
+{
+	padding: 0px 0px;
+}
+a
+{
+	text-decoration: none !important;
+}
+.title-da
+{
+	margin-top: 27px;
+	font-family: OpenSans-SemiBold;
+	color: #21385e;
+	padding-bottom: 7px;
+}
+.title-da:hover
+{
+	margin-top: 27px;
+	font-family: OpenSans-SemiBold;
+	color: green;
+	padding-bottom: 7px;
+}
+.p-des
+{
+	line-height: 30px;
+	text-align: justify;
+}
+
+.btnChiTiet
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+	height: 44px;
+	background: #1c498d;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.btnChiTiet:hover
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+	height: 44px;
+	background: #ffc22e;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.mauxam
+{
+	background: #eeeeee;
+}
+p.news-title
+{
+	padding: 18px;
+	text-align: center;
+	font-family: OpenSans-Bold;
+	color: #21385e;
+}
+.news-da
+{
+	margin-top: 22px;
+}
+.motnews
+{
+	margin-bottom: 22px !important;
+}
+/*phan trang*/
+.pagination 
+{
+    width: 400px;
+}
+.pagination a 
+{
+	display: block;
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	margin-top: 32px;
+}
+
+.pagination a.active 
+{
+	background-color: #21385e;
+	color: white;
+}
+
+.pagination a:hover:not(.active) 
+{
+	background-color: #ddd;
+
+}
+/*end phan trang*/
+
+/*san pham noi bat*/
+.card-body a h5
+{
+	color: #1c498d;
+	font-family: inherit;
+	font-size: 17px;
+	font-weight: bold;
+}
+.xemchitiet
+{
+	color: #2a3341;
+}
+#du-an .card-bg-header{
+	background-color:#1c498d;
+	margin:-.06rem;
+}
+#du-an .card-header{
+	font-family: "OpenSans-SemiBold";
+	font-size:18px;
+	color:#fff;
+}
+/*end san pham noi bat*/

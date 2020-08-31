@@ -1,0 +1,120 @@
+.img-fluid-sp {
+    margin-top: 16px;
+    max-width: 100%;
+    height: 305px;
+}
+.new_product {
+    background: #F3F3F3;
+    display: flex;
+}
+.new_product img {
+    margin-left: -3px;
+}
+.ban_chay {
+    float: left;
+    background: #46AD0E;
+    height: 41px;
+    line-height: 41px;
+    padding-left: 25px;
+    color: white;
+    width: 23%;
+}
+.ban_chay h5{
+  margin-left: 15px;
+}
+.sp_ban_chay img {
+    margin-left: -2px;
+}
+.more {
+    position: relative;
+    left: 66%;
+    line-height: 41px;
+}
+.more a{
+  color: black;
+}
+.more a:hover{
+  text-decoration: none!important;
+  color: blue;
+}
+.row.product {
+    padding: 15px;
+}
+.product-list {
+    width: 77%;
+    padding: 0px 20px;
+}
+.card-body {
+    padding: 0px 10px;
+    text-align: center;
+}
+small.text-muted {
+    color: #46AD0E!important;
+}
+.row.list1 {
+    margin-bottom: 30px;
+}
+.row.list2 {
+    margin-top: 30px;
+}
+.product-content img {
+    max-height: 520px;
+    min-width: 263px;
+}
+.result {
+    background: #F4F4F4;
+    padding-bottom: 20px;
+}
+.result h2 {
+    text-align: center;
+    color: #46AD0E;
+    padding-top: 20px;
+}
+.row-container {
+    width: 80%;
+    margin: auto;
+}
+.last-result {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+}
+.comment {
+    margin-top: 30px;
+}
+.content-comment {
+    text-align: center;
+    color: #46AD0E;
+}
+.slide-container {
+    width: 80%;
+    margin: auto;
+}
+.card{
+    position: relative;
+}
+.show-infor{
+    position: absolute;
+    height: 79%;
+    width: 100%;
+    display: none;
+    opacity: 0.8;
+    background: #6bc04b;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 1;
+}
+.show-infor span {
+    font-size: 14px;
+    color: white;
+}
+.card:hover .show-infor {
+    display: block;
+    
+}
+button.btn.btn-light {
+    height: 30px;
+    line-height: 15px;
+    margin-top: 10px;
+}

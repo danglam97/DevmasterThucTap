@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Dangnhap"
+    android:gravity="center"
+    >
+    <FrameLayout
+        android:layout_marginLeft="50dp"
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+
+        >
+
+        <EditText
+
+            android:id="@+id/edit"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:hint="Tài khoản"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:paddingLeft="40dp"
+            android:paddingTop="12dp"
+
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp"
+            android:singleLine="true"
+            android:text=""
+
+
+            />
+        <ImageView
+            android:id="@+id/tk"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/taikhoan"
+            android:layout_marginTop="70dp"
+            />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginLeft="50dp"
+        android:id="@+id/fram2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/frame"
+
+        >
+        <EditText
+            android:id="@+id/edi2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Mật khẩu"
+            android:paddingLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:inputType="textPassword"
+         />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/matkhau"
+            android:layout_marginTop="20dp"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:layout_below="@id/fram2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+
+        android:layout_below="@id/fram2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/backgrout"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="ĐĂNG KÝ"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+
+        android:layout_below="@id/bt"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/backgrout2"
+        android:layout_marginTop="20dp"
+       />
+    </LinearLayout>
+
+</RelativeLayout>
